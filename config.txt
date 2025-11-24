@@ -1,0 +1,3 @@
+default_amount=100000
+default_interest_annual=12.0
+default_months=360
