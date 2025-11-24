@@ -5,3 +5,7 @@ build/
 docs/
 .vscode/
 *.log
+*.o
+calc
+*.exe
+docs/html/
