@@ -1,3 +1,5 @@
-default_amount=100000
-default_interest_annual=12.0
-default_months=360
+# Configuration file for LoanCalculator
+# Used to remove hardcoded values (Assignment Task 2.c)
+
+# OUTPUT_PRECISION controls the decimal places for financial output
+OUTPUT_PRECISION=4
