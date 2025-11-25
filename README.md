@@ -26,14 +26,13 @@ The build process generates two executables: calc.exe (the main calculator) and 
 
 Compile the Main Application:
 
-# Command used to compile the main calc.exe
+Command to compile.
 g++ -std=c++17 src/main.cpp src/Loan.cpp src/Utils.cpp -o calc.exe
 
 
 Compile the Unit Tests:
 
-# Command used to compile the run_tests.exe
-# Note: Requires correct linking of GoogleTest libraries
+command used to compile test.
 g++ -std=c++17 -I./googletest/googletest/include test/test_emi.cpp src/Loan.cpp src/Utils.cpp -o run_tests.exe [insert_gtest_link_flags_here]
 
 
